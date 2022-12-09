@@ -1,0 +1,10 @@
+[default]
+name=Default
+runtime=host
+config-opts=
+run-opts=
+prefix=/home/acer/.cache/gnome-builder/install/0x00-hello_world/host
+app-id=
+postbuild=
+prebuild=
+default=true

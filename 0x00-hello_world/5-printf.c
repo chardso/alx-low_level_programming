@@ -1,12 +1,13 @@
-#include<stdio.h>
+#include <stdio.h>
 /**
- * main-Entry for all programs
- *
- * return:Always zero when successful
- */
- int main(void)
+* main - Entry path for all programs
+*
+* return: Always zero when the program is successful
+*/
+# "main.c"
+int main(void)
 {
 printf("with a proper grammer,but the outcome is a piece of art\n");
-return(0);
+return (0);
 }
 

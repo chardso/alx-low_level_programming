@@ -1,12 +1,12 @@
 #include <stdio.h>
 /**
-* main - Entry for all programs
+* main - Entry point for all programs
 *
-* return: Always zero when successfully run
+* return: Always returns zero when, the program is successful
 */
 int main(void)
 {
-puts("\"programming is like building a multilingual puzzle");
+puts("\"Programming is like building a multilingual puzzle");
 return(0);
 }
 

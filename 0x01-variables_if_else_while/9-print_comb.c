@@ -1,22 +1,22 @@
 #include <stdio.h>
 /**
-* main - Entry point
-*
-* retun: Always 0 (success)
-*/
+ * main - Entry point
+ * Return:  0 when successful
+ */
 int main(void)
 {
-	int a;
-for (a = 0; a < 10; a++) 
-{
-	putchar (a +'0');
-	if (a < 9) 
-{ 
-	putchar (',');
-	putchar (',');
+	int num;
+
+	for (num = 48; num <= 57; num++)
+	{
+		putchar(num);
+		if (num <  57)
+		{
+			putchar(44);
+			putchar(' ');
+		}
+	}
+	putchar(10);
+	return (0);
 }
-}
-putchar ('\n');
-return (0);
-}
-	
+

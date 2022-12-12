@@ -4,16 +4,16 @@
 *
 * retun: Always 0 (success)
 */
-Int main(void)
+int main(void)
 {
-Int a;
-For(a = 0; a < 10; a++)
+int a;
+for(a = 0; a < 10; a++)
 {
-Putchar(a +'0')
+putchar(a +'0')
 If(a < 9)
 {
 putchar(',');
-Putchar(',');
+putchar(',');
 }
 putchar('\n');
 Return(0);

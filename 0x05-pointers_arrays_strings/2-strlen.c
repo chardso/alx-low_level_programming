@@ -1,18 +1,17 @@
 #include "main.h"
-#include <stdio.h>
-
 /**
-* main - check the code
+* _strlen- takes in a string of characters and return the string length
+* finding length of a string using strlen from string.h
+* @s: input parameter
+* len - returns the integer length of string of characters in s
+* Return: length of string
 *
-* Return: Always 0.
 */
-int main(void)
+int _strlen(char *s)
 {
-char *str;
 int len;
-
-str = "My first strlen!";
-len = _strlen(str);
-printf("%d\n", len);
-return (0);
+for (len = 0; s[len] != 0; len++)
+				{}
+return (len);
 }
+

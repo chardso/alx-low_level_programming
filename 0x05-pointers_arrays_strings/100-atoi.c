@@ -1,31 +1,41 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
-* main - check the code
+* _atoi - Convert a string to an integer.
+* @s: The pointer to convert
 *
-* Return: Always 0.
+* Return: A integer
 */
-int main(void)
+int _atoi(char *s)
 {
-int nb;
+int c = 0;
+unsigned int ni = 0;
+int min = 1;
+int isi = 0;
 
-nb = _atoi("98");
-printf("%d\n", nb);
-nb = _atoi("-402");
-printf("%d\n", nb);
-nb = _atoi("          ------++++++-----+++++--98");
-printf("%d\n", nb);
-nb = _atoi("214748364");
-printf("%d\n", nb);
-nb = _atoi("0");
-printf("%d\n", nb);
-nb = _atoi("Suite 402");
-printf("%d\n", nb);
-nb = _atoi("         +      +    -    -98 Battery Street; San Francisco, CA 94111 - USA             ");
-printf("%d\n", nb);
-nb = _atoi("---++++ -++ Sui - te -   402 #cisfun :)");
-printf("%d\n", nb);
-return (0);
+while (s[c])
+{
+if (s[c] == 45)
+{
+min *= -1;
+}
+
+while (s[c] >= 48 && s[c] <= 57)
+{
+isi = 1;
+ni = (ni * 10) + (s[c] - '0');
+c++;
+}
+
+if (isi == 1)
+{
+break;
+}
+
+c++;
+}
+
+ni *= min;
+return (ni);
 }
 

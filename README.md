@@ -3,6 +3,7 @@
 
 Everything you need to 
 know to start with C
+
 while(98) printf(“#cisfun\n”);
 
 
@@ -19,12 +20,34 @@ executable file.
 
 Begins with /* and ends with */
 
+ /* comment */
 
 Can be inserted anywhere a white-space character
 is allowed
 
 
+/*
+    Multi
+    Line
+    comment
+*/
+
+
+ 
+/*
+  
+*  Multi
+  
+*  Line
+  
+*  Comment
+  
+*/
+
+
 Comments don’t nest
 
+   
+/* does not /* work */ */
 
 Use comments to document your code

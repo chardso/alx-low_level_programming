@@ -27,9 +27,12 @@ is allowed
 
 
 /*
-    Multi
-    Line
-    comment
+    
+Multi
+    
+Line
+    
+comment
 */
 
 

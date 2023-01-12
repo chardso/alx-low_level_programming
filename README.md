@@ -1,6 +1,14 @@
 # alx-low_level_programming
 ## C programing 
 
+
+
+
+![](alx-low_level_programming/IMG_20230112_070555_407.jpg)
+
+
+
+
 Everything you need to 
 know to start with C
 

@@ -13,5 +13,4 @@ exit(98);
 
 return (allocateMemory);
 }
-i
 

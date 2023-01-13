@@ -5,19 +5,29 @@ Project description
 Tasks
 0. Trust no one 
 #include "main.h"
+
 /**
  * *malloc_checked - allocates memory using malloc
+
  * @b: unsigned integer
+
  * Return: Always 0
+
  */
+
 void *malloc_checked(unsigned int b)
+
 {
+
 int *allocateMemory = malloc(b);
 
+
 if (allocateMemory == NULL)
+
 exit(98);
 
 return (allocateMemory);
+
 }
 
 1. string_nconcat 

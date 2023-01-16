@@ -5,12 +5,12 @@
 ## Resources
 **Read or watch:**
 
-- [0x0D.structure. pdf](https://intranet.alxswe.com/rltoken/giS4eNQT2BQ9RLK0PMhgJQ)
+- [0x0d.structure. pdf](/Images/6eb80c79c99f6125450a0dc11b300d46238d1a5a.pdf)
 
 - [Struct (C programming language)](https://en.m.wikipedia.org/wiki/Struct_(C_programming_language))
 
 - [Documentation:Data structures](https://github.com/holbertonschool/Betty/wiki/Documentation:-Data-structures)
-
+[]()
 
 
 

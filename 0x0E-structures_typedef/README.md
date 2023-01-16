@@ -66,6 +66,7 @@ julien@ubuntu:~/0x0d. structures,typedef$ cat 0-main.c
  */
 int main(void)
 {
+
 struct dog my_dog;
 
 my_dog.name = "Poppy";

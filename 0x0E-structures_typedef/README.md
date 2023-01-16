@@ -232,6 +232,8 @@ File: 4-new_dog.c
 
 **5. How many legs does a dog have if you call his tail a leg? Four. Saying that a tail is a leg doesn't make it a leg
 mandatory**
+![](/Images/683112dbdd805c36a9b366cede0653dd80da5ec3.jpg)
+
 
 Write a function that frees dogs.
 

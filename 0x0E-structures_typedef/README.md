@@ -9,6 +9,7 @@
 
 - [Struct (C programming language)](https://en.m.wikipedia.org/wiki/Struct_(C_programming_language))
 
+- [Documentation:Data structures](https://github.com/holbertonschool/Betty/wiki/Documentation:-Data-structures)
 
 
 

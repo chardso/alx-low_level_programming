@@ -147,22 +147,18 @@ File: 1-init_dog.c
 **2. A dog will teach you unconditional love. If you can have that in your life, things won't be too bad
 mandatory**
 
+![](/Images/bb940d2ab10c3a4740f3c154cb980133e65e438e.jpg)
+
 Write a function that prints a struct dog
-
-    
 Prototype: void print_dog(struct dog *d);
-    
 Format: see example bellow
-    
 You are allowed to use the standard library
-    
 If an element of d is NULL, print (nil) instead of this element. (if name is NULL, print Name: (nil))
-    
 If d is NULL print nothing.
-
 julien@ubuntu:~/0x0d. structures, typedef$ cat 2-main.c
 
 #include <stdio.h>
+
 #include "dog.h"
 
 /**
@@ -173,18 +169,13 @@ julien@ubuntu:~/0x0d. structures, typedef$ cat 2-main.c
 int main(void)
 {
 struct dog my_dog;
-
 my_dog.name = "Poppy";
-
 my_dog.age = 3.5;
-
 my_dog.owner = "Bob";
-
 print_dog(&my_dog);
-
 return (0);
-
 }
+
 
 julien@ubuntu:~/0x0d. structures, typedef$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 2-main.c 2-print_dog.c -o c
 julien@ubuntu:~/0x0d. structures, typedef$ ./c 
@@ -208,8 +199,8 @@ Define a new type dog_t as a new name for the type struct dog.
 
 julien@ubuntu:~/0x0d. structures, typedef$ cat 3-main.c
 
-#include <stdio.h>
 
+#include <stdio.h>
 #include "dog.h"
 
 /**
@@ -233,6 +224,7 @@ printf("My name is %s, and I am %.1f :) - Woof!\n", my_dog.name, my_dog.age);
     
 return (0);
 }
+
 
 julien@ubuntu:~/0x0d. structures, typedef$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 3-main.c -o d
 
@@ -300,8 +292,9 @@ Directory: 0x0E-structures_typedef
     
 File: 4-new_dog.c
 
-**5. How many legs does a dog have if you call his tail a leg? Four. Saying that a tail is a leg doesn't make it a leg
-mandatory**
+**5. How many legs does a dog have if you call his tail a leg? Four. Saying that a tail is a leg doesn't make it a leg**
+mandatory
+
 ![](/Images/683112dbdd805c36a9b366cede0653dd80da5ec3.jpg)
 
 
@@ -324,14 +317,9 @@ int main(void)
 {
     
 dog_t *my_dog;
-
-    
 my_dog = new_dog("Poppy", 3.5, "Bob");
-    
 printf("My name is %s, and I am %.1f :) - Woof!\n", my_dog->name, my_dog->age);
-    
 free_dog(my_dog);
-    
 return (0);
 }
 
@@ -377,8 +365,7 @@ Repo:
 GitHub repository: alx-low_level_programming
     
 Directory: 0x0E-structures_typedef
-    
 File: 5-free_dog.c
 
-Copyright © 2023 ALX, All rights reserved.
+
 

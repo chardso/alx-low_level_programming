@@ -13,7 +13,10 @@
 
 - [Typedef c programming pdf](/Images/c8ff3e6f7202be7fa489a584e41d005504a07c23.pdf)
 
+# Learning Objectives
+At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
 
+## General
 
 
 

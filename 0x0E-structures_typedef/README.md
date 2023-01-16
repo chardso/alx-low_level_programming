@@ -5,6 +5,8 @@
 ## Resources
 **Read or watch:**
 
+- [0x0D.structure. pdf](https://intranet.alxswe.com/rltoken/giS4eNQT2BQ9RLK0PMhgJQ)
+
 - [Struct (C programming language)](https://en.m.wikipedia.org/wiki/Struct_(C_programming_language))
 
 

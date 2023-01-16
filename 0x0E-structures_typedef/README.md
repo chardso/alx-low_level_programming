@@ -44,13 +44,13 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 
 ![](/Images/3b534d73d79949ef8b7535d462014518256953f2.jpg)
 
-Define a new type struct dog with the following elements:
+Define a new type **struct dog** with the following elements:
 
-name, type = char *
+- name, type = char *
 
-age, type = float *
+- age, type = float *
 
-owner, type = char *
+- owner, type = char *
 
 julien@ubuntu:~/0x0d. structures,typedef$ cat 0-main.c
 

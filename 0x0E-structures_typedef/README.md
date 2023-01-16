@@ -5,6 +5,8 @@
 ## Resources
 **Read or watch:**
 
+- [Struct (C programming language)](https://en.m.wikipedia.org/wiki/Struct_(C_programming_language))
+
 
 
 

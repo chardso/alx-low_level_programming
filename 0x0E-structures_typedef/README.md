@@ -1,5 +1,7 @@
 # 0x0E. C - Structures, typedef
 
+![](/Images/50af78a28a081e809856d4cdbde2d7ca9d4aa93d.jpg)
+
 
 
 

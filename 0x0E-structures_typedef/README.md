@@ -1,6 +1,7 @@
 # Tasks description.
-**0. Poppy**
-mandatory
+**0. Poppy**          mandatory
+
+![](/Images/3b534d73d79949ef8b7535d462014518256953f2.jpg)
 
 Define a new type struct dog with the following elements:
 

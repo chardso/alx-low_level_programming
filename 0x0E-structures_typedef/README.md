@@ -1,5 +1,5 @@
-Tasks
-0. Poppy
+# Tasks description.
+**0. Poppy**
 mandatory
 
 Define a new type struct dog with the following elements:
@@ -38,8 +38,8 @@ Repo:
     Directory: 0x0E-structures_typedef
     File: dog.h
 
-1. A dog is the only thing on earth that loves you more than you love yourself
-mandatory
+**1. A dog is the only thing on earth that loves you more than you love yourself
+mandatory**
 
 Write a function that initialize a variable of type struct dog
 
@@ -73,8 +73,8 @@ Repo:
     Directory: 0x0E-structures_typedef
     File: 1-init_dog.c
 
-2. A dog will teach you unconditional love. If you can have that in your life, things won't be too bad
-mandatory
+**2. A dog will teach you unconditional love. If you can have that in your life, things won't be too bad
+mandatory**
 
 Write a function that prints a struct dog
 
@@ -116,8 +116,8 @@ Repo:
     Directory: 0x0E-structures_typedef
     File: 2-print_dog.c
 
-3. Outside of a dog, a book is a man's best friend. Inside of a dog it's too dark to read
-mandatory
+**3. Outside of a dog, a book is a man's best friend. Inside of a dog it's too dark to read
+mandatory**
 
 Define a new type dog_t as a new name for the type struct dog.
 
@@ -151,8 +151,8 @@ Repo:
     Directory: 0x0E-structures_typedef
     File: dog.h
 
-4. A door is what a dog is perpetually on the wrong side of
-mandatory
+**4. A door is what a dog is perpetually on the wrong side of
+mandatory**
 
 Write a function that creates a new dog.
 
@@ -188,8 +188,8 @@ Repo:
     Directory: 0x0E-structures_typedef
     File: 4-new_dog.c
 
-5. How many legs does a dog have if you call his tail a leg? Four. Saying that a tail is a leg doesn't make it a leg
-mandatory
+**5. How many legs does a dog have if you call his tail a leg? Four. Saying that a tail is a leg doesn't make it a leg
+mandatory**
 
 Write a function that frees dogs.
 

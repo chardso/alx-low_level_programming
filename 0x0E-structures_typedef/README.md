@@ -252,7 +252,7 @@ File: dog.h
 
 **4. A door is what a dog is perpetually on the wrong side of
 mandatory**
-
+![](/Images/8c1e394774fb8d25e0bbbb73a75ebc7de0c80745.jpg)
 Write a function that creates a new dog.
 
     

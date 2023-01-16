@@ -130,6 +130,7 @@ return (0);
 julien@ubuntu:~/0x0d. structures, typedef$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 1-main.c 1-init_dog.c -o b
 
 julien@ubuntu:~/0x0d. structures, typedef$ ./b 
+
 My name is Poppy, and I am 3.5 :) - Woof!
 
 julien@ubuntu:~/0x0d. structures, typedef$ 

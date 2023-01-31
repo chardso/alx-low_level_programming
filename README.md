@@ -8,25 +8,25 @@
 
 
 
-
+<p>
 Everything you need to 
 know to start with C
 
 while(98) printf(“#cisfun\n”);
-
+</p>
 
 # What is C?
-
+<p>
 C is an imperative (procedural) language. 
 All the code has to be inside a function.
 C files are source code of your program.
 You have to compile C files with a compiler (for instance gcc) to create an 
 executable file
-
+</p>
 
 ## Comments
 #cisfun
-
+<p>
 Begins with /* and ends with */
 
  /* comment */
@@ -64,7 +64,7 @@ Comments don’t nest
 /* does not /* work */ */
 
 Use comments to document your code
-
+</p>
 
 ![](/Images/IMG_20230112_064825_192.jpg)
 

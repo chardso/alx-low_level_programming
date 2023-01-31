@@ -25,7 +25,7 @@ executable file
 </p>
 
 ## Comments
-#cisfun
+# cisfun
 <p>
 Begins with /* and ends with */
 

@@ -1,19 +1,17 @@
 #include "main.h"
+
 /**
-* _isdigit - returns 1 if upper case else 0
-* Return: 0
-* @c: is to passed into the function
-* Checks if character is upper case
-*/
+ * _isdigit - checks for characters that are digits
+ * @c: character to check
+ *
+ * Return: 0 or 1
+ */
+
 int _isdigit(int c)
 {
-if isdigit(c)
-{
+if (c >= '0' && c <= '9')
 return (1);
-}
 else
-{
 return (0);
-}
 }
 
